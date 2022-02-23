@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Preview Site](https://your-live-site-url.com)
+- Live Site URL: [Preview Site](https://joos-advice-generator.netlify.app/)
 
 ### Built with
 
@@ -39,8 +39,6 @@ Users should be able to:
 
 I learned what API's are and how to implement them in my code. I also learned more about .json files.
 I also learned about the `async` and `await` keywords.
-
-To see how you can add code snippets, see below:
 
 ```js
   const res = await fetch(API)
