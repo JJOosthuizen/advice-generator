@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --light-cyan: hsl(193, 38%, 86%);
+    --neon-green: hsl(150, 100%, 66%);
+    --grayish-blue: hsl(217, 19%, 38%);
+    --dark-grayish-blue: hsl(217, 19%, 24%);
+    --bg-color: hsl(220, 22%, 16%);
+}
+
+body {
+    font-family: 'Manrope', sans-serif;
+}
+
+main {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bg-color);
+    text-align: center;
+}
+
+.card {
+    width: 500px;
+    background-color: var(--dark-grayish-blue);
+    border-radius: 0.5em;
+    padding: 1.5em;
+    position: relative;
+    margin: 1em;
+}
+
+h1 {
+    color: var(--neon-green);
+    font-size: 0.75em;
+    letter-spacing: 2px;
+}
+
+h2 {
+    color: var(--light-cyan);
+    font-size: 28px;
+    font-weight: 800;
+    padding: 0.75em 0;
+}
+
+.divider {
+    padding-bottom: 2em;
+}
+
+.btn-next{
+    position: absolute;
+    padding: 1em;
+    border-radius: 50%;
+    border: none;
+    background-color: var(--neon-green);
+    left: 50%;
+    top: 100%;
+    transform: translate(-50%, -50%);
+    width: 4em;
+    height: 4em;
+}
+
+.btn-next:hover {
+    box-shadow: 0 0 2em 5px var(--neon-green);
+}
